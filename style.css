@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+}
+header {
+  max-width: 1728px;
+  padding: 32px 122.67px 0px 120px;
+  background-color: aqua;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.header {
+  display: flex;
+  gap: 16px;
+}
+.header_nav nav {
+  display: flex;
+  gap: 32px;
+}
